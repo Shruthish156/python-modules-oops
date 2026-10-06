@@ -5,8 +5,8 @@
 #HUMAN : class 
 #eyes,ears,legs : data(Attributes)
 #seeing,listening,walking :methods(functions)
-class student:
-    def __init__(self,name):
+class student:                     #create class student
+    def __init__(self,name):       #store the class student data 
         self.name=name
-student1=student("shruthisha")
+student1=student("shruthisha")     #student1 - object
 print(student1.name)
