@@ -2,10 +2,11 @@
 
 #ENCAPSULATION
 
-#define: 
+#defination : 
 """
  it is a oops concept that wrapping the data and methods into a sinlge class and protecting the data by restricting the direct 
 access to it and improve security and maintainability
+
 """
 class ATM:
     print("+=====WELCOME TO THE BANK OF BARODA ATM=======")
