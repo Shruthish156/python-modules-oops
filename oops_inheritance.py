@@ -16,7 +16,7 @@ class BOB(SBI):                                   #child class it access the inf
         self.balance -=amount
         print(f"the withdraw amount is :{self.balance}")
 
-class HDFC(BOB):                                 #child cladd it access the information if class bob,sbi and bank it inherite the hdfc
+class HDFC(BOB):                                 #child class it access the information if class bob,sbi and bank it inherite the hdfc
     def intrest(self):
         self.balance=self.balance*25
         print(f"the intrest amount is :{self.balance}")

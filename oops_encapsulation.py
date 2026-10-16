@@ -10,8 +10,8 @@ access to it and improve security and maintainability
 """
 class ATM:
     print("+=====WELCOME TO THE BANK OF BARODA ATM=======")
-    def __init__(self,atm_holder):
-        self.__balance=50                        #private -we do not direct access the data it will difficult
+    def __init__(self,balance,atm_holder):
+        self.__balance=balance                        #private -we do not direct access the data it will difficult
         self.__atm_holder=atm_holder             #private 
 
     def show_balance(self):
@@ -34,8 +34,8 @@ class ATM:
            
         else:
             print("invalid withdraw this bank not support to your withdraw amount $:")
-
-BOB_ATM=ATM("AIENGSHRUTHISHA") 
+#BOB_ATM=ATM(50)
+BOB_ATM=ATM(50,"AIENGSHRUTHISHA") 
 BOB_ATM.deposit(8000)
 BOB_ATM.withdraw(7050)
 print(BOB_ATM.show_balance())                  #function calling
@@ -43,4 +43,3 @@ print(BOB_ATM.show_balance())                  #function calling
 
 
 
-    
