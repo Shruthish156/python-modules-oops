@@ -1,5 +1,5 @@
 #overriding
-#define : we use same methods for different classes and try to access it that timings happen overriding
+#define : when child class define methods with same name as its parent class
 class student_system:
     def college_topper(self):
         print("he is topper")
