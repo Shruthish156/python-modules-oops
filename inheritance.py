@@ -1,4 +1,4 @@
-#INHERITANCE
+#INHERITANCES
 #inheritance means : child class is acqiure the data and methods of the parents class (main class)
 class Bank:                                       #parent class
     def __init__(self,balance,ac_holder,ac_no):
