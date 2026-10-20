@@ -1,4 +1,4 @@
-#overriding
+#overridings
 #define : when child class define methods with same name as its parent class
 class student_system:
     def college_topper(self):

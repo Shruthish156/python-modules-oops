@@ -2,7 +2,7 @@
 
 #ENCAPSULATION
 
-#defination : 
+#defination:
 """
  it is a oops concept that wrapping the data and methods into a sinlge class and protecting the data by restricting the direct 
 access to it and it improve security and maintainability

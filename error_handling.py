@@ -37,7 +37,7 @@ finally:                                             #it always be printed even 
 try:
     age=18
     if age>=18:
-        raise TypeError("age is valid for election")
+        raise TypeError("you are eligeble for election")
 
     else:
         raise TypeError("not able to add election part")

@@ -1,4 +1,4 @@
-#methods
+#method
 #means we write function  in inside class
 #CLASS METHOD
 #it is works with class level data use @classmethod decorators;
