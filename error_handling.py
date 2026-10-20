@@ -43,7 +43,7 @@ try:
         raise TypeError("not able to add election part")
 
 except TypeError as e:
-    print("your age is invalid : ",e)
+    print("your age is valid : ",e)
 
 finally:
     print("thankyou for election age enquiring85")
