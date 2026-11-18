@@ -26,7 +26,7 @@ def my_decorator(func):                  #decorator function
     def wrapper_name():                  #add extra functionality
         if_checked_login=True
         if if_checked_login:
-            print("Login successfull")
+            print("Login successfully")
             func()
         else:
             print("login again with valid data")
@@ -38,8 +38,7 @@ dash_board=my_decorator(dash_board)
 dash_board()
 print(dash_board.__name__)  #it give wrapper name bcz not use functools.wrap
 print(dash_board.__doc__)
-
-
+#thankyou
         
 
         
