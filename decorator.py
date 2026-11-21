@@ -36,7 +36,7 @@ def dash_board():                        #origin function
     print("Welcome to the login page dash_board")
 dash_board=my_decorator(dash_board)
 dash_board()
-print(dash_board.__name__)  #it give wrapper name bcz not use functools.wrap
+print(dash_board.__name__)  
 print(dash_board.__doc__)
 
 
