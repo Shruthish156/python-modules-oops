@@ -1,1 +1,0 @@
-print("welcome open source contributing")
