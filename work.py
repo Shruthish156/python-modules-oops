@@ -1,1 +1,1 @@
-print("welcome open source contribute")
+print("hello world")
