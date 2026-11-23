@@ -17,8 +17,13 @@ print(result)
 #None Type Hints
 #it use when there is no return the any values/names
 def animal_name(animal:str) ->None:
-    print(f"the king of the forest is {animal}")
-animal_name("LION")
+    if animal=="LION":
+        print(f"the king of the forest is {animal}")
+    else:
+        return None
+result=animal_name("LION")
+print(result)
+
 
 def with_draw(amounts :list[int]) ->None:
     for amount in amounts:
@@ -28,18 +33,24 @@ def with_draw(amounts :list[int]) ->None:
                 print(f"the total remaining amount is: {amount}")
             else:
                 print("thank you for bank users")
-
         else:
-            print("the amount is not sufficient plase add amount to your bank acc")
-with_draw([200,500,-100,12])
+            return None
+result=with_draw([200,500,-100,12])
+print(result)
 
+print()
 #str | none type hints 
 #it five either str or none based on condition
-subject_marks: dict[str,int] ={
+def marks_check(subject_marks: dict[str,int]) -> str | None:
+    for subject,mark in subject_marks.items():
+        if mark>95 and subject.startswith(("k","e","p")):
+            return "Good score with outstanding"   
+        else:
+            return None  
+result={
     "kannada":98,
     "english":99,
     "hindi":88,
     "python":100
-}
-for mark in subject_marks.values():
-    if mark>95:
+}                   
+print(marks_check(result))
